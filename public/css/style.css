@@ -1,0 +1,423 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Trebuchet MS;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	background-color: #f3f3f3;
+	line-height: 50px;
+	font-size: 20px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #333;
+}
+
+.navbar ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.navbar ul li {
+	flex: 1;
+	text-align: center;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navbar ul li a:hover {
+	text-decoration: underline;
+	color: #38003c;
+}
+
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#sim-control {
+	display: none;
+	width: 75%;
+	margin: 0 auto;
+	align-items: center;
+	min-height: 50px;
+	margin-top: 5px;
+}
+
+#sim-control button {
+	height: 30px;
+	padding: 0px 15px;
+	margin: 0px 5px;
+	font-size: 18px;
+	line-height: 30px;
+	border-radius: 4px;
+	background-color: #fafafa;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px #ccc;
+	width: 100px;
+}
+
+#minutes {
+	height: 20px;
+	line-height: 20px;
+	width: 15%;
+	margin: 0 auto;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 22px;
+	text-align: center;
+	background-color: #51bfaa;
+}
+
+/* Scoreboard */
+#scoreboard {
+	width: 75%;
+	margin: 65px auto 0px auto;
+	height: 200px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: middle;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+/* Country specfic scoreboards */
+.scoreboard-eng {
+	background-color: #38003c;
+	color: #00ff85;
+}
+
+.scoreboard-ita {
+	background-color: #0091b6;
+	color: #ffffff;
+}
+
+.scoreboard-esp {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.scoreboard-ger {
+	background-color: #e2e2e2;
+	color: #000000;
+}
+
+.scoreboard-por {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.scoreboard-ned {
+	background-color: #bbd3f1;
+	color: #000000;
+}
+
+.scoreboard-fra {
+	background-color: #022f69;
+	color: #ffffff;
+}
+/* End of country specific scoreboards */
+
+
+
+#home {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+#away {
+	text-align: right;
+	width: 40%;
+}
+
+#home img, #away img {
+	width: 200px;
+	height: 200px;
+}
+
+#score {
+	width: 20%;
+	text-align: center;
+	font-size: 60px;
+	height: 80px;
+	line-height: 80px;
+	margin: 60px 0px;
+}
+
+
+/* End of Scoreboard */
+#controls {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0px 40px 0px;
+}
+
+#quick-sim, #slow-sim, #instant {
+	height: 30px;
+	padding: 5px 15px;
+	margin: 0px 20px;
+	font-size: 18px;
+	border-radius: 4px;
+	background-color: #fafafa;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px #ccc;
+}
+
+#selection {
+	background-color: #fafafa;
+	padding: 20px 0px 50px 0px;
+	border-radius: 10px;
+}
+
+/* League Select */
+#league-select {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	/*border: 1px solid black;*/
+	border-radius: 4px;
+	background-color: #fafafa;
+}
+
+#leagues {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#leagues h1 {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 5px 0px 5px 12px;
+}
+
+.league {
+	width: 5%;
+	margin: 0px 2px;
+	border: 1px solid black;
+	border-radius: 4px;
+	font-size: 18px;
+	cursor: pointer;
+	padding: 5px 10px;
+	display: flex;
+	line-height: 25px;
+}
+
+.league:hover {
+	background-color: #f4f4f4;
+	color: #000000;
+}
+
+.league img {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+}
+/* End of League Select*/
+
+
+/* Team Select */
+#team-select {
+	display: flex;
+}
+
+#home-team, #away-team {
+	width: 250px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fafafa;
+	min-height: 70px;
+}
+
+#home-team h1, #away-team h1 {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 5px 0px 5px 12px;
+}
+
+.team {
+	font-size: 18px;
+	cursor: pointer;
+	padding: 5px 10px;
+	display: flex;
+	line-height: 25px;
+}
+
+.team:hover {
+	background-color: #f4f4f4;
+	color: #000000;
+}
+
+.team img {
+	width: 25px;
+	height: 25px;
+	padding-right: 8px;
+}
+/* End of Team Select */
+
+.league:focus, .team:focus {
+	outline: none;
+}
+
+.selected {
+	background-color: #999999;
+	color: white;
+}
+
+
+
+@media (max-width: 1020px){
+
+	#score {
+		font-size: 50px; 
+	}
+
+	#controls {
+		margin-bottom: 0px;
+	}
+
+}
+
+@media (max-width: 850px){
+
+
+	#controls {
+		margin-bottom: 0px;
+		flex-wrap: wrap;
+	}
+
+	#quick-sim, #slow-sim, #instant {  
+		width: 30%;
+		margin: 2px auto;
+	}
+
+	#league-select {
+		width: 100%;
+	}
+
+	.league {
+		width: 50%;
+	}
+
+
+	#scoreboard {
+		width: 80%;
+		margin: 65px auto 0px auto;
+		height: 100px;
+		border: 1px solid black;
+		display: flex;
+		justify-content: middle;
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+	#home img, #away img {
+		width: 100px;
+		height: 100px;
+	}
+
+	#score {
+		width: 30%;
+		text-align: center;
+		font-size: 40px;
+		height: 50px;
+		line-height: 0px;
+		margin: 60px 0px;
+	}
+
+	#home-team, #away-team {
+		width: 300px;
+	}
+
+}
+
+@media (max-width: 600px) {
+		
+		#controls {
+			flex-direction: column;
+			align-content: center;
+
+		}
+
+		#quick-sim, #slow-sim, #instant {
+			margin: 0 auto;
+			width: 80%;
+
+		}
+
+		#leagues {
+			flex-wrap: wrap;
+
+		}
+
+		.league {
+			width: 50px;
+			margin: 10px;
+		}
+
+		#home-team, #away-team {
+			width: 200px;
+
+		}
+
+		.team {
+			font-size: 13px;
+		}
+}
+
+@media (max-width: 500px) {
+		
+		#scoreboard {
+			height: 75px;
+		}
+
+		#score {
+			font-size: 25px;
+			width: 30%;
+			height: 30px;
+			line-height: 30px;
+			margin: 22px 0px;
+		}
+
+		#home img, #away img {
+			width: 75px;
+			height: 75px;
+		}
+
+		.league {
+			width: 40px;
+			margin: 8px;
+		}
+
+		#home-team, #away-team {
+			width: 100px;
+		}
+
+		.team {
+			font-size: 0px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+}

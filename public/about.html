@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>How it Works - Football Simulator</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/about.css">
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+		</script>
+	</head>
+	
+	<body>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="./index.html">Match</a></li>
+				<li><a href="./about.html">How it Works</a></li>
+			</ul>
+		</div>
+
+		<div class="container">
+
+			<div id="match-sim" class="text">
+				<h3><u>Match Simulation</u></h3>
+				<p>
+					Each team's expected goals $ k $ is based on a <a href="https://en.wikipedia.org/wiki/Poisson_distribution" target="_blank">poisson distribution:</a> 
+					$$P(k) = {e^{-\lambda}}{\lambda^{k} \over k! }$$
+				</p>
+				<p>
+					A random variable is then generated from the Poisson distribution and this corresponds to the amount of goals the team scores in that match.
+				</p>
+				<p>
+					For <i>Instant Result</i>, the generated Poisson random variable is immediately displayed in the scoreboard. For <i>Quick Sim</i> and <i>Slow Sim</i>, the score is pre-generated and the minutes in which the goals are scored are randomly determined using a random number generator. The score is then updated at the corresponding minute of the match.
+				</p>
+				<h4><u>Calculating $\lambda$</u></h4>
+				<p>
+					The data used is the amount of goals scored and conceded by each team at home and away, and is based on the 2017/2018 season. This is then used to generate an 'Attack Strength' and a 'Defence Strength' for each team at home and away, relative to the rest of the league.
+				</p>
+				<p>
+					$${Home\ Team\ Attack\ Strength} = {Average\ Number\ of\ Home\ Team\ Goals\ at\ Home \over Average\ Number\ of\ Goals\ at\ Home}$$<br/>
+					$${Away\ Team\ Attack\ Strength} = {Average\ Number\ of\ Away\ Team\ Goals\ Away \over Average\ Number\ of\ Goals\ Away}$$<br/>
+					$${Home\ Team\ Defence\ Strength} = {Average\ Number\ of\ Home\ Team\ Goals\ Conceded\ at\ Home \over Average\ Number\ of\ Goals\ Conceded\ at\ Home}$$<br/>
+					$${Away\ Team\ Defence\ Strength} = {Average\ Number\ of\ Away\ Team\ Goals\ Conceded\ Away \over Average\ Number\ of\ Goals\ Conceded\ Away}$$<br/>
+					
+				</p>
+				<p>	
+					This is then used to create a weighting for a particular match-up between any two teams within the same league.
+				</p>
+				<p>
+					$${Home\ Team\ \lambda} = {Average\ Number\ of\ Goals\ Scored\ at\ Home\\ \times Home\ Team\ Attack\ Strength\\ \times Away\ Team\ Defence\ Strength }$$
+					$${Away\ Team\ \lambda} = {Average\ Number\ of\ Goals\ Scored\ Away\\ \times Away\ Team\ Attack\ Strength\\ \times Home\ Team\ Defence\ Strength }$$
+				</p>
+				<p>
+					These lambda values are then used to <a href="https://en.wikipedia.org/wiki/Poisson_distribution#Generating_Poisson-distributed_random_variables" target="_blank">generate a random variable from the Poisson distribution</a>, which is the number of goals scored in the match by each team.
+				</p><br/>
+				<h3><u>Example</u></h3>
+				<p>
+					Using <i>Arsenal</i> vs. <i>Chelsea</i> as an example, the following data is necessary (again, all from the 2017/2018 season):
+
+					$${Total\ Home\ Goals = 582}$$
+					$${Total\ Away\ Goals = 436}$$
+					$${Arsenal\ Home\ Goals\ Scored = 54}$$
+					$${Arsenal\ Home\ Goals\ Conceded = 20}$$
+					$${Chelsea\ Away\ Goals\ Scored = 32}$$
+					$${Chelsea\ Away\ Goals\ Conceded = 22}$$
+
+					<br/>
+					We also need to note for calculating averages, that 380 matches were played in total, and each team played 38 matches (19 at home, 19 away).<br /><br />
+					Then we calculate the attack and defence strengths of the two teams as follows:
+
+					$${Arsenal\ Attack\ Strength} = {{54 \over 19} \over {582 \over 380}} = {1.855\dots}$$
+					$${Chelsea\ Attack\ Strength} = {{32 \over 19} \over {436 \over 380}} = {1.467\dots}$$
+					$${Arsenal\ Defence\ Strength} = {{20 \over 19} \over {436 \over 380}} = {0.917\dots}$$
+					$${Chelsea\ Defence\ Strength} = {{22 \over 19} \over {582 \over 380}} = {0.756\dots}$$
+
+					<br/>
+					Then we calculate the ${\lambda}$ value for each team:
+					
+					$${Arsenal\ {\lambda}} = {{582 \over 380} \times {Arsenal\ Attack} \times {Chelsea\ Defence} } = {2.148\dots}$$
+					$${Chelsea\ {\lambda}} = {{436 \over 380} \times {Chelsea\ Attack} \times {Arsenal\ Defence} } = {1.545\dots}$$
+
+				</p>
+				<p>
+					These ${\lambda}$ values tell us that on average, we can expect Arsenal to score just over 2 goals at home to Chelsea, and Chelsea to score just over 1.5 goals away to Arsenal. In reality, this match finished <b>Arsenal 2-2 Chelsea</b>.
+				</p>
+				<p>
+					Finally, we generate a random number for each team using the Poisson distribution and the values of ${\lambda}$ above, which gives us the final score. This is done using the algorithm described <a href="https://en.wikipedia.org/wiki/Poisson_distribution#Generating_Poisson-distributed_random_variables" target="_blank">here</a>.
+				</p>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

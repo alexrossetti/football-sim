@@ -1,0 +1,29 @@
+.text {
+	width: 80%;
+	height: 70vh;
+	margin: 0 auto;
+	background-color: #fcfcfc;
+	padding: 20px 40px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 50px;
+	overflow-y: scroll;
+	color: #333;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+h3, h4 {
+	margin: 10px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+a:hover {
+	text-decoration: underline;
+}

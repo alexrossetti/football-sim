@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Football Simulator</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<script
+		  src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous">
+		</script>
+		<script type="text/javascript" src="./js/main.js"></script>
+	</head>
+	
+	<body>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="./index.html">Match</a></li>
+				<li><a href="./about.html">How it Works</a></li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<div id="sim-control">
+				<!--<button>Slow</button>	
+				<button>Fast</button>-->
+				<div id="minutes">
+				0'	
+				</div>
+			</div>
+			
+			
+			<div id="scoreboard">
+				<div id="home">
+					
+				</div>
+				<div id="score">
+					<span id="home-score"></span>
+						-
+					<span id="away-score"></span>
+				</div>
+				<div id="away">
+
+				</div>
+			</div>
+
+			<div id="controls">
+				<button id="instant">Instant Result</button>
+				<button id="quick-sim">Quick Sim</button>
+				<button id="slow-sim">Slow Sim</button>
+			</div>
+			
+
+			<div id="selection">
+				
+				
+				<div id="league-select">
+					<div id="leagues">
+						<div class="league" id="premier-league"><img src="./img/leagues/premierleague.png" /></div>
+						<div class="league" id="serie-a"><img src="./img/leagues/seriea.png" /></div>
+						<div class="league" id="la-liga"><img src="./img/leagues/laliga.png" /></div>
+						<div class="league" id="bundesliga"><img src="./img/leagues/bundesliga.png" /></div>
+						<div class="league" id="ligue1"><img src="./img/leagues/ligue1.png" /></div>
+						<div class="league" id="primeira-liga"><img src="./img/leagues/primeiraliga.png" /></div>
+						<div class="league" id="eredivisie"><img src="./img/leagues/eredivisie.png" /></div>	
+					</div>
+				</div>
+
+				<div id="team-select">
+
+					<div id="home-team">
+						<h1>HOME TEAM</h1>
+					</div>
+
+					<div id="away-team">
+						<h1>AWAY TEAM</h1>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+	</body>
+
+</html>

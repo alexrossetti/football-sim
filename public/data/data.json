@@ -1,0 +1,1505 @@
+{
+	"Premier League": {
+		"clubs": [
+			{
+                "name": "Chelsea",
+                "badge": "../img/england/chelsea.png",
+                "stats":
+                    {
+                        "homeScored": 30,
+                        "homeConceded": 16,
+                        "awayScored": 32,
+                        "awayConceded": 22
+                    }
+            },
+            {
+                "name": "Liverpool",
+                "badge": "../img/england/liverpool.png",
+                "stats":
+                    {
+                        "homeScored": 45,
+                        "homeConceded": 10,
+                        "awayScored": 39,
+                        "awayConceded": 28
+                    }
+            },
+            {
+                "name": "Manchester United",
+                "badge": "../img/england/manutd.png",
+                "stats":
+                    {
+                        "homeScored": 38,
+                        "homeConceded": 9,
+                        "awayScored": 30,
+                        "awayConceded": 19
+                    }
+            },
+            {
+                "name": "Arsenal",
+                "badge": "../img/england/arsenal.png",
+                "stats":
+                    {
+                        "homeScored": 54,
+                        "homeConceded": 20,
+                        "awayScored": 20,
+                        "awayConceded": 31
+                    }
+            },
+            {
+                "name": "Tottenham",
+                "badge": "../img/england/tottenham.png",
+                "stats":
+                    {
+                        "homeScored": 40,
+                        "homeConceded": 16,
+                        "awayScored": 34,
+                        "awayConceded": 20
+                    }
+            },
+            {
+                "name": "Manchester City",
+                "badge": "../img/england/mancity.png",
+                "stats":
+                    {
+                        "homeScored": 61,
+                        "homeConceded": 14,
+                        "awayScored": 45,
+                        "awayConceded": 13
+                    }
+            },
+            {
+                "name": "Everton",
+                "badge": "../img/england/everton.png",
+                "stats":
+                    {
+                        "homeScored": 28,
+                        "homeConceded": 22,
+                        "awayScored": 16,
+                        "awayConceded": 36
+                    }
+            },
+            {
+                "name": "Leicester",
+                "badge": "../img/england/leicester.png",
+                "stats":
+                    {
+                        "homeScored": 25,
+                        "homeConceded": 22,
+                        "awayScored": 31,
+                        "awayConceded": 38
+                    }
+            },
+            {
+                "name": "Brighton",
+                "badge": "../img/england/brighton.png",
+                "stats":
+                    {
+                        "homeScored": 24,
+                        "homeConceded": 25,
+                        "awayScored": 10,
+                        "awayConceded": 29
+                    }
+            },
+            {
+                "name": "Newcastle",
+                "badge": "../img/england/newcastle.png",
+                "stats":
+                    {
+                        "homeScored": 21,
+                        "homeConceded": 17,
+                        "awayScored": 18,
+                        "awayConceded": 30
+                    }
+            },
+            {
+                "name": "West Ham",
+                "badge": "../img/england/westham.png",
+                "stats":
+                    {
+                        "homeScored": 24,
+                        "homeConceded": 26,
+                        "awayScored": 24,
+                        "awayConceded": 42
+                    }
+            },
+            {
+                "name": "Watford",
+                "badge": "../img/england/watford.png",
+                "stats":
+                    {
+                        "homeScored": 27,
+                        "homeConceded": 31,
+                        "awayScored": 17,
+                        "awayConceded": 33
+                    }
+            },
+            {
+                "name": "Crystal Palace",
+                "badge": "../img/england/crystalpalace.png",
+                "stats":
+                    {
+                        "homeScored": 29,
+                        "homeConceded": 27,
+                        "awayScored": 16,
+                        "awayConceded": 28
+                    }
+            },
+            {
+                "name": "Burnley",
+                "badge": "../img/england/burnley.png",
+                "stats":
+                    {
+                        "homeScored": 16,
+                        "homeConceded": 17,
+                        "awayScored": 20,
+                        "awayConceded": 22
+                    }
+            },
+            {
+                "name": "Bournemouth",
+                "badge": "../img/england/bournemouth.png",
+                "stats":
+                    {
+                        "homeScored": 26,
+                        "homeConceded": 30,
+                        "awayScored": 19,
+                        "awayConceded": 31
+                    }
+            },
+            {
+                "name": "Huddersfield",
+                "badge": "../img/england/huddersfield.png",
+                "stats":
+                    {
+                        "homeScored": 16,
+                        "homeConceded": 25,
+                        "awayScored": 12,
+                        "awayConceded": 33
+                    }
+            },
+            {
+                "name": "Swansea",
+                "badge": "../img/england/swansea.png",
+                "stats":
+                    {
+                        "homeScored": 17,
+                        "homeConceded": 24,
+                        "awayScored": 11,
+                        "awayConceded": 32
+                    }
+            },
+            {
+                "name": "Stoke",
+                "badge": "../img/england/stoke.png",
+                "stats":
+                    {
+                        "homeScored": 20,
+                        "homeConceded": 30,
+                        "awayScored": 15,
+                        "awayConceded": 38
+                    }
+            },
+            {
+                "name": "Southampton",
+                "badge": "../img/england/southampton.png",
+                "stats":
+                    {
+                        "homeScored": 20,
+                        "homeConceded": 26,
+                        "awayScored": 17,
+                        "awayConceded": 30
+                    }
+            },
+            {
+                "name": "West Brom",
+                "badge": "../img/england/westbrom.png",
+                "stats":
+                    {
+                        "homeScored": 21,
+                        "homeConceded": 29,
+                        "awayScored": 10,
+                        "awayConceded": 27
+                    }
+            }
+		]
+	},
+	"Serie A": {
+		"clubs": [
+			{
+                "name": "Napoli",
+                "badge": "../img/italy/napoli.png",
+                "stats":
+                    {
+                        "homeScored": 34,
+                        "homeConceded": 12,
+                        "awayScored": 24,
+                        "awayConceded": 15
+                    }
+            },
+            {
+                "name": "Juventus",
+                "badge": "../img/italy/juventus.png",
+                "stats":
+                    {
+                        "homeScored": 35,
+                        "homeConceded": 10,
+                        "awayScored": 29,
+                        "awayConceded": 10
+                    }
+            },
+            {
+                "name": "AC Milan",
+                "badge": "../img/italy/acmilan.png",
+                "stats":
+                    {
+                        "homeScored": 26,
+                        "homeConceded": 16,
+                        "awayScored": 19,
+                        "awayConceded": 14
+                    }
+            },
+            {
+                "name": "Empoli",
+                "badge": "../img/italy/empoli.png",
+                "stats":
+                    {
+                        "homeScored": 26,
+                        "homeConceded": 25,
+                        "awayScored": 14,
+                        "awayConceded": 34
+                    }
+            },
+            {
+				"name": "Inter Milan",
+				"badge": "../img/italy/inter.png",
+				"stats":
+					{
+						"homeScored": 21,
+						"homeConceded": 7,
+						"awayScored": 26,
+						"awayConceded": 18
+					}
+			},
+            {
+				"name": "AS Roma",
+				"badge": "../img/italy/asroma.png",
+				"stats":
+					{
+						"homeScored": 35,
+						"homeConceded": 25,
+						"awayScored": 21,
+						"awayConceded": 20
+					}
+			},
+            {
+				"name": "Lazio",
+				"badge": "../img/italy/lazio.png",
+				"stats":
+					{
+						"homeScored": 29,
+						"homeConceded": 17,
+						"awayScored": 15,
+						"awayConceded": 15
+					}
+			},
+            {
+				"name": "Torino",
+				"badge": "../img/italy/torino.png",
+				"stats":
+					{
+						"homeScored": 23,
+						"homeConceded": 15,
+						"awayScored": 17,
+						"awayConceded": 13
+					}
+			},
+            {
+				"name": "Cagliari",
+				"badge": "../img/italy/cagliari.png",
+				"stats":
+					{
+						"homeScored": 20,
+						"homeConceded": 16,
+						"awayScored": 10,
+						"awayConceded": 27
+					}
+			},
+            {
+				"name": "Sampdoria",
+				"badge": "../img/italy/sampdoria.png",
+				"stats":
+					{
+						"homeScored": 22,
+						"homeConceded": 12,
+						"awayScored": 29,
+						"awayConceded": 29
+					}
+			},
+            {
+				"name": "Atalanta",
+				"badge": "../img/italy/atalanta.png",
+				"stats":
+					{
+						"homeScored": 29,
+						"homeConceded": 17,
+						"awayScored": 35,
+						"awayConceded": 24
+					}
+			},
+            {
+				"name": "Genoa",
+				"badge": "../img/italy/genoa.png",
+				"stats":
+					{
+						"homeScored": 19,
+						"homeConceded": 19,
+						"awayScored": 16,
+						"awayConceded": 30
+					}
+			},
+            {
+				"name": "Udinese",
+				"badge": "../img/italy/udinese.png",
+				"stats":
+					{
+						"homeScored": 18,
+						"homeConceded": 19,
+						"awayScored": 12,
+						"awayConceded": 24
+					}
+			},
+            {
+				"name": "Fiorentina",
+				"badge": "../img/italy/fiorentina.png",
+				"stats":
+					{
+						"homeScored": 25,
+						"homeConceded": 17,
+						"awayScored": 21,
+						"awayConceded": 22
+					}
+			},
+            {
+				"name": "Sassuolo",
+				"badge": "../img/italy/sassuolo.png",
+				"stats":
+					{
+						"homeScored": 31,
+						"homeConceded": 31,
+						"awayScored": 15,
+						"awayConceded": 20
+					}
+			},
+            {
+				"name": "Bologna",
+				"badge": "../img/italy/bologna.png",
+				"stats":
+					{
+						"homeScored": 15,
+						"homeConceded": 18,
+						"awayScored": 16,
+						"awayConceded": 29
+					}
+			},
+            {
+				"name": "SPAL",
+				"badge": "../img/italy/spal.png",
+				"stats":
+					{
+						"homeScored": 14,
+						"homeConceded": 19,
+						"awayScored": 14,
+						"awayConceded": 25
+					}
+			},
+            {
+				"name": "Parma",
+				"badge": "../img/italy/parma.png",
+				"stats":
+					{
+						"homeScored": 13,
+						"homeConceded": 21,
+						"awayScored": 20,
+						"awayConceded": 29
+					}
+			},
+            {
+				"name": "Chievo",
+				"badge": "../img/italy/chievo.png",
+				"stats":
+					{
+						"homeScored": 12,
+						"homeConceded": 29,
+						"awayScored": 9,
+						"awayConceded":35 
+					}
+			},
+            {
+				"name": "Frosinone",
+				"badge": "../img/italy/frosinone.png",
+				"stats":
+					{
+						"homeScored": 12,
+						"homeConceded": 30,
+						"awayScored": 13,
+						"awayConceded": 26
+					}
+			}
+		]
+	},
+	"La Liga": {
+		"clubs": [
+			{
+				"name": "Barcelona",
+				"badge": "../img/spain/barcelona.png",
+				"stats":
+					{
+						"homeScored": 53,
+						"homeConceded": 11,
+						"awayScored": 46,
+						"awayConceded": 18
+					}
+			},
+			{
+				"name": "Atlético Madrid",
+				"badge": "../img/spain/atletico.png",
+				"stats":
+					{
+						"homeScored": 30,
+						"homeConceded": 8,
+						"awayScored": 28,
+						"awayConceded": 14
+					}
+			},
+			{
+				"name": "Valencia",
+				"badge": "../img/spain/valencia.png",
+				"stats":
+					{
+						"homeScored": 36,
+						"homeConceded": 16,
+						"awayScored": 29,
+						"awayConceded": 22
+					}
+			},
+			{
+				"name": "Real Madrid",
+				"badge": "../img/spain/realmadrid.png",
+				"stats":
+					{
+						"homeScored": 54,
+						"homeConceded": 20,
+						"awayScored": 40,
+						"awayConceded": 24
+					}
+			},
+			{
+				"name": "Sevilla",
+				"badge": "../img/spain/sevilla.png",
+				"stats":
+					{
+						"homeScored": 31,
+						"homeConceded": 22,
+						"awayScored": 18,
+						"awayConceded": 36
+					}
+			},
+			{
+				"name": "Villarreal",
+				"badge": "../img/spain/villarreal.png",
+				"stats":
+					{
+						"homeScored": 35,
+						"homeConceded": 22,
+						"awayScored": 22,
+						"awayConceded": 28
+					}
+			},
+			{
+				"name": "Real Betis",
+				"badge": "../img/spain/realbetis.png",
+				"stats":
+					{
+						"homeScored": 35,
+						"homeConceded": 31,
+						"awayScored": 25,
+						"awayConceded": 30
+					}
+			},
+			{
+				"name": "Real Sociedad",
+				"badge": "../img/spain/realsociedad.png",
+				"stats":
+					{
+						"homeScored": 47,
+						"homeConceded": 29,
+						"awayScored": 19,
+						"awayConceded": 30
+					}
+			},
+			{
+				"name": "Celta Vigo",
+				"badge": "../img/spain/celtavigo.png",
+				"stats":
+					{
+						"homeScored": 34,
+						"homeConceded": 23,
+						"awayScored": 25,
+						"awayConceded": 37
+					}
+			},
+			{
+				"name": "Getafe",
+				"badge": "../img/spain/getafe.png",
+				"stats":
+					{
+						"homeScored": 26,
+						"homeConceded": 13,
+						"awayScored": 16,
+						"awayConceded": 20
+					}
+			},
+			{
+				"name": "Leganés",
+				"badge": "../img/spain/leganes.png",
+				"stats":
+					{
+						"homeScored": 19,
+						"homeConceded": 19,
+						"awayScored": 15,
+						"awayConceded": 32
+					}
+			},
+			{
+				"name": "Espanyol",
+				"badge": "../img/spain/espanyol.png",
+				"stats":
+					{
+						"homeScored": 20,
+						"homeConceded": 16,
+						"awayScored": 16,
+						"awayConceded": 26
+					}
+			},
+			{
+				"name": "Eibar",
+				"badge": "../img/spain/eibar.png",
+				"stats":
+					{
+						"homeScored": 26,
+						"homeConceded": 19,
+						"awayScored": 18,
+						"awayConceded": 31
+					}
+			},
+			{
+				"name": "Alavés",
+				"badge": "../img/spain/alaves.png",
+				"stats":
+					{
+						"homeScored": 21,
+						"homeConceded": 23,
+						"awayScored": 19,
+						"awayConceded": 27
+					}
+			},
+			{
+				"name": "Girona",
+				"badge": "../img/spain/girona.png",
+				"stats":
+					{
+						"homeScored": 26,
+						"homeConceded": 22,
+						"awayScored": 24,
+						"awayConceded": 37
+					}
+			},
+			{
+				"name": "Levante",
+				"badge": "../img/spain/levante.png",
+				"stats":
+					{
+						"homeScored": 25,
+						"homeConceded": 28,
+						"awayScored": 19,
+						"awayConceded": 30
+					}
+			},
+			{
+				"name": "Athletic Bilbao",
+				"badge": "../img/spain/athletic.png",
+				"stats":
+					{
+						"homeScored": 19,
+						"homeConceded": 16,
+						"awayScored": 22,
+						"awayConceded": 33
+					}
+			},
+			{
+				"name": "Deportivo La Coruña",
+				"badge": "../img/spain/deportivo.png",
+				"stats":
+					{
+						"homeScored": 22,
+						"homeConceded": 33,
+						"awayScored": 16,
+						"awayConceded": 43
+					}
+			},
+			{
+				"name": "Malaga",
+				"badge": "../img/spain/malaga.png",
+				"stats":
+					{
+						"homeScored": 14,
+						"homeConceded": 27,
+						"awayScored": 10,
+						"awayConceded": 34
+					}
+			},
+			{
+				"name": "Las Palmas",
+				"badge": "../img/spain/laspalmas.png",
+				"stats":
+					{
+						"homeScored": 15,
+						"homeConceded": 38,
+						"awayScored": 9,
+						"awayConceded": 36 
+					}
+			}
+		]
+	},
+	"Bundesliga": {
+		"clubs": [
+			{
+				"name": "Bayern Munich",
+				"badge": "../img/germany/bayern.png",
+				"stats": 
+					{
+						"homeScored": 56,
+						"homeConceded": 15,
+						"awayScored": 36,
+						"awayConceded": 13
+					}
+			},
+			{
+				"name": "Hoffenheim",
+				"badge": "../img/germany/hoffenheim.png",
+				"stats": 
+					{
+						"homeScored": 38,
+						"homeConceded": 16,
+						"awayScored": 28,
+						"awayConceded": 32
+					}
+			},
+			{
+				"name": "Schalke 04",
+				"badge": "../img/germany/schalke.png",
+				"stats": 
+					{
+						"homeScored": 27,
+						"homeConceded": 15,
+						"awayScored": 26,
+						"awayConceded": 22
+					}
+			},
+			{
+				"name": "VfB Stuttgart",
+				"badge": "../img/germany/stuttgart.png",
+				"stats": 
+					{
+						"homeScored": 18,
+						"homeConceded": 9,
+						"awayScored": 18,
+						"awayConceded": 27
+					}
+			},
+			{
+				"name": "Borussia Dortmund",
+				"badge": "../img/germany/dortmund.png",
+				"stats": 
+					{
+						"homeScored": 40,
+						"homeConceded": 21,
+						"awayScored": 24,
+						"awayConceded": 26
+					}
+			},
+			{
+				"name": "RB Leipzig",
+				"badge": "../img/germany/rbleipzig.png",
+				"stats": 
+					{
+						"homeScored": 34,
+						"homeConceded": 26,
+						"awayScored": 23,
+						"awayConceded": 27
+					}
+			},
+			{
+				"name": "Borussia Mönchengladbach",
+				"badge": "../img/germany/moenchengladbach.png",
+				"stats": 
+					{
+						"homeScored": 28,
+						"homeConceded": 20,
+						"awayScored": 19,
+						"awayConceded": 32
+					}
+			},
+			{
+				"name": "Bayer Leverkusen",
+				"badge": "../img/germany/leverkusen.png",
+				"stats": 
+					{
+						"homeScored": 29,
+						"homeConceded": 19,
+						"awayScored": 29,
+						"awayConceded": 25 
+					}
+			},
+			{
+				"name": "Eintracht Frankfurt",
+				"badge": "../img/germany/frankfurt.png",
+				"stats": 
+					{
+						"homeScored": 26,
+						"homeConceded": 19,
+						"awayScored": 19,
+						"awayConceded": 26 
+					}
+			},
+			{
+				"name": "Hannover 96",
+				"badge": "../img/germany/hannover.png",
+				"stats": 
+					{
+						"homeScored": 28,
+						"homeConceded": 25,
+						"awayScored": 16,
+						"awayConceded": 29
+					}
+			},
+			{
+				"name": "SC Freiburg",
+				"badge": "../img/germany/freiburg.png",
+				"stats": 
+					{
+						"homeScored": 17,
+						"homeConceded": 17,
+						"awayScored": 15,
+						"awayConceded": 39
+					}
+			},
+			{
+				"name": "Werder Bremen",
+				"badge": "../img/germany/bremen.png",
+				"stats": 
+					{
+						"homeScored": 20,
+						"homeConceded": 17,
+						"awayScored": 17,
+						"awayConceded": 23
+					}
+			},
+			{
+				"name": "FSV Mainz",
+				"badge": "../img/germany/mainz.png",
+				"stats": 
+					{
+						"homeScored": 22,
+						"homeConceded": 21,
+						"awayScored": 16,
+						"awayConceded": 31
+					}
+			},
+			{
+				"name": "FC Augsburg",
+				"badge": "../img/germany/augsburg.png",
+				"stats": 
+					{
+						"homeScored": 24,
+						"homeConceded": 24,
+						"awayScored": 19,
+						"awayConceded": 22
+					}
+			},
+			{
+				"name": "Hamburg SV",
+				"badge": "../img/germany/hamburg.png",
+				"stats": 
+					{
+						"homeScored": 17,
+						"homeConceded": 19,
+						"awayScored": 12,
+						"awayConceded": 34
+					}
+			},
+			{
+				"name": "Hertha Berlin",
+				"badge": "../img/germany/hertha.png",
+				"stats": 
+					{
+						"homeScored": 23,
+						"homeConceded": 27,
+						"awayScored": 20,
+						"awayConceded": 19
+					}
+			},
+			{
+				"name": "Wolfsburg",
+				"badge": "../img/germany/wolfsburg.png",
+				"stats": 
+					{
+						"homeScored": 23,
+						"homeConceded": 25,
+						"awayScored": 13,
+						"awayConceded": 23
+					}
+			},
+			{
+				"name": "FC Köln",
+				"badge": "../img/germany/cologne.png",
+				"stats": 
+					{
+						"homeScored": 20,
+						"homeConceded": 30,
+						"awayScored": 15,
+						"awayConceded": 40
+					}
+			}
+		]
+	},
+	"Primeira Liga": {
+		"clubs": [
+			{
+				"name": "FC Porto",
+				"badge": "../img/portugal/fcporto.png",
+				"stats":
+					{
+						"homeScored": 52,		
+						"homeConceded": 10,
+						"awayScored": 30,
+						"awayConceded": 8
+					}
+			},
+			{
+				"name": "Sporting CP",
+				"badge": "../img/portugal/sportingcp.png",
+				"stats":
+					{
+						"homeScored": 32,
+						"homeConceded": 4,
+						"awayScored": 31,
+						"awayConceded": 20
+					}
+			},
+			{
+				"name": "Benfica",
+				"badge": "../img/portugal/benfica.png",
+				"stats":
+					{
+						"homeScored": 47,
+						"homeConceded": 9,
+						"awayScored": 33,
+						"awayConceded": 13
+					}
+			},
+			{
+				"name": "Sporting Braga",
+				"badge": "../img/portugal/braga.png",
+				"stats":
+					{
+						"homeScored": 37,
+						"homeConceded": 10,
+						"awayScored": 37,
+						"awayConceded": 19
+					}
+			},
+			{
+				"name": "Rio Ave",
+				"badge": "../img/portugal/rioave.png",
+				"stats":
+					{
+						"homeScored": 26,
+						"homeConceded": 12,
+						"awayScored": 14,
+						"awayConceded": 30
+					}
+			},
+			{
+				"name": "Boavista",
+				"badge": "../img/portugal/boavista.png",
+				"stats":
+					{
+						"homeScored": 24,
+						"homeConceded": 17,
+						"awayScored": 11,
+						"awayConceded": 27
+					}
+			},
+			{
+				"name": "Marítimo",
+				"badge": "../img/portugal/maritimo.png",
+				"stats":
+					{
+						"homeScored": 24,
+						"homeConceded": 15,
+						"awayScored": 12,
+						"awayConceded": 34
+					}
+			},
+			{
+				"name": "Guimarães",
+				"badge": "../img/portugal/guimaraes.png",
+				"stats":
+					{
+						"homeScored": 24,
+						"homeConceded": 26,
+						"awayScored": 21,
+						"awayConceded": 30
+					}
+			},
+			{
+				"name": "Portimonense",
+				"badge": "../img/portugal/portimonense.png",
+				"stats":
+					{
+						"homeScored": 31,
+						"homeConceded": 28,
+						"awayScored": 21,
+						"awayConceded": 32
+					}
+			},
+			{
+				"name": "Belenenses",
+				"badge": "../img/portugal/belenenses.png",
+				"stats":
+					{
+						"homeScored": 23,
+						"homeConceded": 20,
+						"awayScored": 10,
+						"awayConceded": 26
+					}
+			},
+			{
+				"name": "Chaves",
+				"badge": "../img/portugal/chaves.png",
+				"stats":
+					{
+						"homeScored": 27,
+						"homeConceded": 26,
+						"awayScored": 20,
+						"awayConceded": 29
+					}
+			},
+			{
+				"name": "Vitória de Setúbal",
+				"badge": "../img/portugal/vitoriasetubal.png",
+				"stats":
+					{
+						"homeScored": 20,
+						"homeConceded": 20,
+						"awayScored": 19,
+						"awayConceded": 42
+					}
+			},
+			{
+				"name": "Paços de Ferreira",
+				"badge": "../img/portugal/pacosferreira.png",
+				"stats":
+					{
+						"homeScored": 18,
+						"homeConceded": 21,
+						"awayScored": 15,
+						"awayConceded": 38
+					}
+			},
+			{
+				"name": "Feirense",
+				"badge": "../img/portugal/feirense.png",
+				"stats":
+					{
+						"homeScored": 19,
+						"homeConceded": 23,
+						"awayScored": 13,
+						"awayConceded": 25
+					}
+			},
+			{
+				"name": "Moreirense",
+				"badge": "../img/portugal/moreirense.png",
+				"stats":
+					{
+						"homeScored": 15,
+						"homeConceded": 20,
+						"awayScored": 14,
+						"awayConceded": 30
+					}
+			},
+			{
+				"name": "Tondela",
+				"badge": "../img/portugal/tondela.png",
+				"stats":
+					{
+						"homeScored": 27,
+						"homeConceded": 32,
+						"awayScored": 14,
+						"awayConceded": 18
+					}
+			},
+			{
+				"name": "Aves",
+				"badge": "../img/portugal/aves.png",
+				"stats":
+					{
+						"homeScored": 17,
+						"homeConceded": 24,
+						"awayScored": 19,
+						"awayConceded": 27
+					}
+			},
+			{
+				"name": "Estoril",
+				"badge": "../img/portugal/estoril.png",
+				"stats":
+					{
+						"homeScored": 17,
+						"homeConceded": 29,
+						"awayScored": 12,
+						"awayConceded": 32
+					}
+			}
+		]
+	},
+	"Eredivisie": {
+		"clubs": [
+			{
+				"name": "PSV Eindhoven",
+				"badge": "../img/netherlands/psv.png",
+				"stats":
+					{
+						"homeScored": 44,		
+						"homeConceded": 9,
+						"awayScored": 43,
+						"awayConceded": 30
+					}
+			},
+			{
+				"name": "Ajax",
+				"badge": "../img/netherlands/ajax.png",
+				"stats":
+					{
+						"homeScored": 45,		
+						"homeConceded": 12,
+						"awayScored": 44,
+						"awayConceded": 21
+					}
+			},
+			{
+				"name": "Feyenoord",
+				"badge": "../img/netherlands/feyenoord.png",
+				"stats":
+					{
+						"homeScored": 37,		
+						"homeConceded": 17,
+						"awayScored": 39,
+						"awayConceded": 22
+					}
+			},
+			{
+				"name": "AZ Alkmaar",
+				"badge": "../img/netherlands/azalkmaar.png",
+				"stats":
+					{
+						"homeScored": 40,		
+						"homeConceded": 23,
+						"awayScored": 32,
+						"awayConceded": 15
+					}
+			},
+			{
+				"name": "FC Utrecht",
+				"badge": "../img/netherlands/utrecht.png",
+				"stats":
+					{
+						"homeScored": 32,		
+						"homeConceded": 21,
+						"awayScored": 26,
+						"awayConceded": 32
+					}
+			},
+			{
+				"name": "Heracles Almelo",
+				"badge": "../img/netherlands/heracles.png",
+				"stats":
+					{
+						"homeScored": 29,		
+						"homeConceded": 25,
+						"awayScored": 21,
+						"awayConceded": 39
+					}
+			},
+			{
+				"name": "FC Groningen",
+				"badge": "../img/netherlands/fcgroningen.png",
+				"stats":
+					{
+						"homeScored": 32,		
+						"homeConceded": 21,
+						"awayScored": 18,
+						"awayConceded": 29
+					}
+			},
+			{
+				"name": "PEC Zwolle",
+				"badge": "../img/netherlands/zwolle.png",
+				"stats":
+					{
+						"homeScored": 27,		
+						"homeConceded": 20,
+						"awayScored": 15,
+						"awayConceded": 34
+					}
+			},
+			{
+				"name": "Vitesse Arnhem",
+				"badge": "../img/netherlands/vitesse.png",
+				"stats":
+					{
+						"homeScored": 35,		
+						"homeConceded": 20,
+						"awayScored": 28,
+						"awayConceded": 27
+					}
+			},
+			{
+				"name": "ADO Den Haag",
+				"badge": "../img/netherlands/denhaag.png",
+				"stats":
+					{
+						"homeScored": 26,		
+						"homeConceded": 27,
+						"awayScored": 19,
+						"awayConceded": 26
+					}
+			},
+			{
+				"name": "SC Heerenveen",
+				"badge": "../img/netherlands/heerenveen.png",
+				"stats":
+					{
+						"homeScored": 21,		
+						"homeConceded": 24,
+						"awayScored": 27,
+						"awayConceded": 29
+					}
+			},
+			{
+				"name": "Willem II",
+				"badge": "../img/netherlands/willemii.png",
+				"stats":
+					{
+						"homeScored": 31,		
+						"homeConceded": 29,
+						"awayScored": 19,
+						"awayConceded": 34
+					}
+			},
+			{
+				"name": "NAC Breda",
+				"badge": "../img/netherlands/nacbreda.png",
+				"stats":
+					{
+						"homeScored": 26,		
+						"homeConceded": 31,
+						"awayScored": 15,
+						"awayConceded": 26
+					}
+			},
+			{
+				"name": "Sparta Rotterdam",
+				"badge": "../img/netherlands/sparta.png",
+				"stats":
+					{
+						"homeScored": 21,		
+						"homeConceded": 36,
+						"awayScored": 13,
+						"awayConceded": 39
+					}
+			},
+			{
+				"name": "FC Twente",
+				"badge": "../img/netherlands/fctwente.png",
+				"stats":
+					{
+						"homeScored": 25,		
+						"homeConceded": 31,
+						"awayScored": 12,
+						"awayConceded": 32
+					}
+			},
+			{
+				"name": "Roda JC",
+				"badge": "../img/netherlands/rodajc.png",
+				"stats":
+					{
+						"homeScored": 21,		
+						"homeConceded": 34,
+						"awayScored": 21,
+						"awayConceded": 35
+					}
+			},
+			{
+				"name": "VVV",
+				"badge": "../img/netherlands/vvv.png",
+				"stats":
+					{
+						"homeScored": 19,		
+						"homeConceded": 29,
+						"awayScored": 16,
+						"awayConceded": 25
+					}
+			},
+			{
+				"name": "Excelsior",
+				"badge": "../img/netherlands/excelsior.png",
+				"stats":
+					{
+						"homeScored": 16,		
+						"homeConceded": 24,
+						"awayScored": 25,
+						"awayConceded": 32
+					}
+			}
+		]
+	},
+	"Ligue 1": {
+		"clubs": [
+			{
+				"name": "Paris Saint-Germain",
+				"badge": "../img/france/psg.png",
+				"stats":
+					{
+						"homeScored": 70,
+						"homeConceded": 15,
+						"awayScored": 38,
+						"awayConceded": 14
+					}
+			},
+			{
+				"name": "AS Monaco",
+				"badge": "../img/france/asmonaco.png",
+				"stats":
+					{
+						"homeScored": 47,
+						"homeConceded": 17,
+						"awayScored": 38,
+						"awayConceded": 28
+					}
+			},
+			{
+				"name": "Marseille",
+				"badge": "../img/france/marseille.png",
+				"stats":
+					{
+						"homeScored": 44,
+						"homeConceded": 19,
+						"awayScored": 36,
+						"awayConceded": 28
+					}
+			},
+			{
+				"name": "Lyon",
+				"badge": "../img/france/lyon.png",
+				"stats":
+					{
+						"homeScored": 38,
+						"homeConceded": 18,
+						"awayScored": 49,
+						"awayConceded": 25
+					}
+			},
+			{
+				"name": "Dijon",
+				"badge": "../img/france/dijon.png",
+				"stats":
+					{
+						"homeScored": 35,
+						"homeConceded": 28,
+						"awayScored": 20,
+						"awayConceded": 45
+					}
+			},
+			{
+				"name": "OGC Nice",
+				"badge": "../img/france/nice.png",
+				"stats":
+					{
+						"homeScored": 29,
+						"homeConceded": 23,
+						"awayScored": 24,
+						"awayConceded": 29
+					}
+			},
+			{
+				"name": "EA Guingamp",
+				"badge": "../img/france/guingamp.png",
+				"stats":
+					{
+						"homeScored": 30,
+						"homeConceded": 24,
+						"awayScored": 18,
+						"awayConceded": 35
+					}
+			},
+			{
+				"name": "AS Saint-Étienne",
+				"badge": "../img/france/saintetienne.png",
+				"stats":
+					{
+						"homeScored": 32,
+						"homeConceded": 27,
+						"awayScored": 15,
+						"awayConceded": 23
+					}
+			},
+			{
+				"name": "Girondins Bordeaux",
+				"badge": "../img/france/bordeaux.png",
+				"stats":
+					{
+						"homeScored": 27,
+						"homeConceded": 23,
+						"awayScored": 26,
+						"awayConceded": 25
+					}
+			},
+			{
+				"name": "Amiens",
+				"badge": "../img/france/amiens.png",
+				"stats":
+					{
+						"homeScored": 26,
+						"homeConceded": 19,
+						"awayScored": 11,
+						"awayConceded": 23
+					}
+			},
+			{
+				"name": "Rennes",
+				"badge": "../img/france/rennes.png",
+				"stats":
+					{
+						"homeScored": 21,
+						"homeConceded": 22,
+						"awayScored": 29,
+						"awayConceded": 22
+					}
+			},
+			{
+				"name": "Nantes",
+				"badge": "../img/france/nantes.png",
+				"stats":
+					{
+						"homeScored": 15,
+						"homeConceded": 17,
+						"awayScored": 21,
+						"awayConceded": 24
+					}
+			},
+			{
+				"name": "Strasbourg",
+				"badge": "../img/france/strasbourg.png",
+				"stats":
+					{
+						"homeScored": 27,
+						"homeConceded": 27,
+						"awayScored": 17,
+						"awayConceded": 40
+					}
+			},
+			{
+				"name": "Toulouse",
+				"badge": "../img/france/toulouse.png",
+				"stats":
+					{
+						"homeScored": 23,
+						"homeConceded": 21,
+						"awayScored": 15,
+						"awayConceded": 33
+					}
+			},
+			{
+				"name": "SM Caen",
+				"badge": "../img/france/caen.png",
+				"stats":
+					{
+						"homeScored": 17,
+						"homeConceded": 19,
+						"awayScored": 10,
+						"awayConceded": 33
+					}
+			},
+			{
+				"name": "LOSC Lille",
+				"badge": "../img/france/lille.png",
+				"stats":
+					{
+						"homeScored": 24,
+						"homeConceded": 27,
+						"awayScored": 17,
+						"awayConceded": 40
+					}
+			},
+			{
+				"name": "Troyes",
+				"badge": "../img/france/troyes.png",
+				"stats":
+					{
+						"homeScored": 17,
+						"homeConceded": 22,
+						"awayScored": 15,
+						"awayConceded": 37
+					}
+			},
+			{
+				"name": "Angers",
+				"badge": "../img/france/angers.png",
+				"stats":
+					{
+						"homeScored": 23,
+						"homeConceded": 28,
+						"awayScored": 19,
+						"awayConceded": 24
+					}
+			},
+			{
+				"name": "FC Metz",
+				"badge": "../img/france/metz.png",
+				"stats":
+					{
+						"homeScored": 16,
+						"homeConceded": 37,
+						"awayScored": 18,
+						"awayConceded": 39
+					}
+			},
+			{
+				"name": "Montpellier",
+				"badge": "../img/france/montpellier.png",
+				"stats":
+					{
+						"homeScored": 20,
+						"homeConceded": 19,
+						"awayScored": 16,
+						"awayConceded": 14
+					}
+			}
+		]
+	}
+
+}
